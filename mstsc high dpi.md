@@ -9,6 +9,7 @@
   https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/reg-delete
 ```
  reg delete <keyname> [{/v valuename | /ve | /va}] [/f]
+ reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /v "C:\Windows\System32\mstsc2.exe" /f
 ```
 * Multi-Remote Next Generation Connection Manager
   https://mremoteng.org/
