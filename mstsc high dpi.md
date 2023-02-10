@@ -13,4 +13,9 @@
 ```
 * Multi-Remote Next Generation Connection Manager
   https://mremoteng.org/
+* 程序高dpi设置
+```
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
+新建项：REG-SZ 软件url:~ HIGHDPIAWARE
+```
 
