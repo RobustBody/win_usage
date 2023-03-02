@@ -1,3 +1,4 @@
+# 无效  
 * 在 HiDPI 监视器上显示 RDP 会话
   https://4sysops.com/archives/display-rdp-sessions-on-hidpi-monitors/
 * HiDPI (Retina) 显示屏上的远程桌面客户端：解决像素缩放问题
