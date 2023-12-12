@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript">
+function displayDate()
+{
+	document.getElementById('date').innerHTML=Date();
+};
+console.log(Date());
+</script>
+</head>
+<body>
+
+<div id='d1'>
+<a href="#" id="date">当前时间</a>
+<br/>
+<input type="button" value="显示当前时间" id="aaa" onclick="displayDate()"/>
+<br/>
+<input type="button" value="取消" onclick="clearInterval(myVar);document.getElementById('ks').disabled=false;"/>       
+<input type="button"  value="开始" id="ks" onclick="a=1;myVar=setInterval(function(){a++;console.log(a);document.getElementById('aaa').click(); },1000);this.disabled=true;"/>
+
+
+</div>
+
+<div  color="red" height="200px" width="200px" style="z-index: 9999; position: fixed ! important; right: 30px; top: 10px;">  
+
+
+</div>
+</body>
+</html>
